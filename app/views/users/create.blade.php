@@ -42,10 +42,13 @@
 			</div>
 
 			<div class="form-group">
-				{{ Form::submit('Create your account', ['class'=>'btn btn-primary']) }}
+				{{ Form::submit('Create your account', ['class'=>'btn btn-primary']) }} 
+				<a class="btn btn-link" href="/login" role="button">Already have an account? Login.</a>
 			</div>
 
 		{{ Form::close() }}
+
+
 	</div>
 
 @stop

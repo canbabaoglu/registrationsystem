@@ -34,7 +34,8 @@
 
 			<div class="form-group">
 				{{ Form::submit('Login', ['class' => 'btn btn-primary']) }}
-			</div>
+				<a class="btn btn-link" href="/register" role="button">Don't have an account yet? Register.</a>
+			</div> 
 
 		{{ Form::close() }}
 
