@@ -1,0 +1,14 @@
+.page-content-container {
+	padding-top: 60px;
+}
+
+.form-container {
+	border-radius: 8px;
+	border: none;
+	background-color: #E1E1E8;
+}
+
+.error {
+	color: red;
+	font-style: italic;
+}
